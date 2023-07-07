@@ -2,30 +2,33 @@
 
 :root {
     --primary-colour: #fde047;
+    --width-break: 600px;
 }
 
 body {
+    margin: 0;
     font-family: 'Dancing Script', cursive;
-    font-size: 3rem;
-    padding: 1rem;
-
-
+    color: black;
 }
 
-h1 {
+nav {
     background-color: var(--primary-colour);
     text-align: center;
-    padding: 1rem;
-    font-size: 3rem;
 }
 
-textarea {
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+#txt-input {
     box-sizing: border-box;
     display: block;
     width: 100%;
     min-height: 20vh;
     margin-top: 2rem;
-    font-size: large;
+    font-size: 1.25rem;
     font-family: inherit;
 }
 
@@ -44,6 +47,22 @@ textarea {
     min-height: 10vh;
     max-height: 20vh;
     overflow: scroll;
-    border: 1px solid;
+    border: 1px solid black;
+    margin-top: 0.25rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-colour);
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
 }
 
