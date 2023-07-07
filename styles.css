@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
 :root {
-    --primary-colour: #fde047;
+    --primary-colour: #713f12;
     --width-break: 600px;
 }
 
 body {
     margin: 0;
     font-family: 'Dancing Script', cursive;
-    color: black;
+    color: white;
 }
 
 nav {
@@ -39,6 +39,8 @@ main {
     padding: 1rem 2rem;
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
 }
 
 #output {
@@ -49,6 +51,7 @@ main {
     overflow: scroll;
     border: 1px solid black;
     margin-top: 0.25rem;
+    color: black;
 }
 
 footer {
